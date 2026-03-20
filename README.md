@@ -10,13 +10,13 @@
 </ul>
 <h3>Home Page</h3>
 <p>Created a home page where users can fill their information.</p>
-<img src="https://github.com/IshitaSinha2002/Employee-Burnout-Predictor/blob/main/Screenshot%20(9).png" width: 300px; height: 150px>
-<img src="https://github.com/IshitaSinha2002/Employee-Burnout-Predictor/blob/main/Screenshot%20(10).png">
+<img src="https://github.com/IshitaSinha2002/Employee-Burnout-Predictor/blob/main/Screenshot%20(9).png" width: 300px; height: 100px>
+<img src="https://github.com/IshitaSinha2002/Employee-Burnout-Predictor/blob/main/Screenshot%20(10).png" width: 300px; height: 100px>
 <h3>Results Page</h3>
 <p>Created a page where the result will be generated according to the information filled by the user.</p>
-<img src="https://github.com/IshitaSinha2002/Employee-Burnout-Predictor/blob/main/Screenshot%20(12).png">
-<img src="https://github.com/IshitaSinha2002/Employee-Burnout-Predictor/blob/main/Screenshot%20(11).png">
-<img src="https://github.com/IshitaSinha2002/Employee-Burnout-Predictor/blob/main/Screenshot%20(13).png">
+<img src="https://github.com/IshitaSinha2002/Employee-Burnout-Predictor/blob/main/Screenshot%20(12).png" width: 300px; height: 100px>
+<img src="https://github.com/IshitaSinha2002/Employee-Burnout-Predictor/blob/main/Screenshot%20(11).png" width: 300px; height: 100px>
+<img src="https://github.com/IshitaSinha2002/Employee-Burnout-Predictor/blob/main/Screenshot%20(13).png" width: 300px; height: 100px>
 <h3>Model Training Implementation Details</h3>
 <ol>
   <li>Data Processing: 
