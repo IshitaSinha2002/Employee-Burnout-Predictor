@@ -8,7 +8,7 @@
   <li>Back-end: Python, Flask</li>
   <li>Machine Learning: Random Forest Classifier, Label Encoding</li>
 </ul>
-<h3>Model Training Implementation Details:</h3>
+<h3>Model Training Implementation Details</h3>
 <ol>
   <li>Data Processing: 
     <ul>
@@ -27,8 +27,48 @@
       <li>Linear Regression</li>
       <li>Random Forest Regressor</li>
     </ul>
-    <p>Model Evaluation Metrics:</p>
-    <li>RMSE (Root Mean Squared Error): Measures prediction error</li>
-    <li>R2 Score: Measures how well the model explains variance</li>
+    <li>Training Process: 
+    <ul>
+      <li>Split dataset into training and testing sets(80/20 split).</li>
+      <li>Ensured randomization to avoid bias.</li>
+      <li>Used training data to learn patterns between input features and burn rate.</li>
+    </ul></li>
+   <li>Model Training: 
+    <ul>
+      <li>Trained models using Scikit-learn.</li>
+      <li>Initialized model.</li>
+      <li>Fit model on training data.</li>
+      <li>Generated predictions on test data.</li>
+    </ul></li>
+    <li>Model Evaluation Metrics:
+    <ul>
+      <li>RMSE (Root Mean Squared Error): Measures prediction error</li>
+      <li>R2 Score: Measures how well the model explains variance</li>
+    </ul>
     </li>
+    <li>Model Comparison:
+    <table>
+      <thead>
+        <tr>
+          <th>Algorithm</th>
+          <th>R2 Score</th>
+          <th>RMSE</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Linear Regression</td>
+          <td>0.9202219777928837</td>
+          <td>0.055352126446872936</td>
+        </tr>
+        <tr>
+          <td>Random Forest Classifier</td>
+          <td>0.9124443764042149</td>
+          <td>0.057987541957028876</td>
+        </tr>
+      </tbody>
+    </table>
+    <ul>
+      <li>Linear Regression outperformed Random Forest as it has higher R2 and lower RMSE.</li>
+    </ul>
 </ol>
