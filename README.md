@@ -9,7 +9,7 @@
   <li>Machine Learning: Random Forest Classifier, Label Encoding</li>
 </ul>
 <h3>Home Page</h3>
-
+<img src="https://github.com/IshitaSinha2002/Employee-Burnout-Predictor/blob/main/Screenshot%20(10).png">
 <h3>Model Training Implementation Details</h3>
 <ol>
   <li>Data Processing: 
