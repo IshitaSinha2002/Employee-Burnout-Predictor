@@ -10,7 +10,7 @@
 </ul>
 <h3>Home Page</h3>
 <p>Created a home page where users can fill their information.</p>
-<img src="https://github.com/IshitaSinha2002/Employee-Burnout-Predictor/blob/main/Screenshot%20(9).png" width: 300px; height: 50px>
+<img src="https://github.com/IshitaSinha2002/Employee-Burnout-Predictor/blob/main/Screenshot%20(9).png" width: "300", height: "100">
 <img src="https://github.com/IshitaSinha2002/Employee-Burnout-Predictor/blob/main/Screenshot%20(10).png" width: 300px; height: 100px>
 <h3>Results Page</h3>
 <p>Created a page where the result will be generated according to the information filled by the user.</p>
