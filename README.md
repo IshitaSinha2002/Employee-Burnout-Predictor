@@ -8,6 +8,8 @@
   <li>Back-end: Python, Flask</li>
   <li>Machine Learning: Random Forest Classifier, Label Encoding</li>
 </ul>
+<h3>Home Page</h3>
+
 <h3>Model Training Implementation Details</h3>
 <ol>
   <li>Data Processing: 
