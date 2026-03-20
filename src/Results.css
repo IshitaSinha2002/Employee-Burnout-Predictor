@@ -83,11 +83,10 @@ html, body {
   box-shadow: 0 0 25px rgba(22, 101, 52, 0.6);
 }
 
-/* ===== SUGGESTION BOX (IMPROVED BORDER) ===== */
+/* ===== SUGGESTION BOX ===== */
 .suggestion-box {
   background: rgba(30, 41, 59, 0.7);
 
-  /* 👇 NEW: soft glowing border instead of harsh line */
   border: none;
   outline: 1px solid rgba(255, 255, 255, 0.08);
 
@@ -101,12 +100,10 @@ html, body {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
 }
 
-/* Heading */
 .suggestion-box h3 {
   font-size: 1rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
-
   color: #e2e8f0;
 
   display: flex;
@@ -114,15 +111,56 @@ html, body {
   gap: 0.5rem;
 }
 
-/* Icon */
 .suggestion-box h3::before {
   content: "💡";
   font-size: 1.1rem;
 }
 
-/* Text */
 .suggestion-box p {
   font-size: 0.95rem;
   color: #cbd5f5;
   line-height: 1.6;
+}
+
+/* ===== 🔥 NEW: BURN RATE CARD ===== */
+.burn-rate-card {
+  margin: 1.5rem auto;
+  padding: 1rem 1.5rem;
+  border-radius: 14px;
+
+  display: inline-block;
+  min-width: 200px;
+
+  background: linear-gradient(135deg, rgba(99,102,241,0.2), rgba(139,92,246,0.2));
+  backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(139, 92, 246, 0.3);
+
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.burn-rate-card:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 0 35px rgba(139, 92, 246, 0.6);
+}
+
+/* Label */
+.burn-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #94a3b8;
+  margin-bottom: 0.3rem;
+}
+
+/* Value */
+.burn-value {
+  font-size: 1.6rem;
+  font-weight: 800;
+
+  background: linear-gradient(135deg, #a5b4fc, #c4b5fd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

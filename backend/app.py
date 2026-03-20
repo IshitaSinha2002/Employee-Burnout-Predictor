@@ -4,6 +4,7 @@ import pickle
 import numpy as np
 
 app = Flask(__name__)
+CORS(app)   
 
 model = pickle.load(open("burnout_model.pkl", "rb"))
 scaler = pickle.load(open("scaler.pkl", "rb"))
