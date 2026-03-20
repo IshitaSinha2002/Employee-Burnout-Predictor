@@ -81,3 +81,24 @@
       <li>Linear Regression outperformed Random Forest as it has higher R2 and lower RMSE.</li>
     </ul>
 </ol>
+<h3>Backend Implementation</h3>
+<ol>
+  <li>Framework and Setup:
+  <ul>
+    <li>Built a RESTful backend using Flask(Python) to serve machine learning predictions.</li>
+    <li>Configured application structure with modular components including model loading and API routing.</li>
+    <li>Enabled cross-origin communication using Flask-CORS to integrate with React frontend.</li>
+  </li>
+  <li>Model Integration:
+  <ul>
+    <li>Loaded trained Linear Regression model for real-time prediction.</li>
+    <li>Integrated StandardScaler to ensure consistent preprocessing of incoming data.</li>
+    <li>Maintained feature consistency between training and inference pipeline.</li>
+  </li>
+  <li>Prediction Logic:
+  <ul>
+    <li>Performed feature scaling using pre-trained scaler before model inference.</li>
+    <li>Generated burn rate prediction (continuous output) using regression model.</li>
+    <li>Converted prediction into risk categories (Low, Moderate, High) using threshold-based logic.</li>
+  </li>
+</ol>
